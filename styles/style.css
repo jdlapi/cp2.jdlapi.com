@@ -1,0 +1,180 @@
+body {
+  background-color: #d7dde1;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #341d5c;
+}
+
+.page {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #c4cacf;
+}
+
+/* Navbar */
+.bg-dark {
+  background-color: #551A8B !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #9781b8;
+    text-decoration: underline;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.5em;
+    color: #a89cba;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #6b3fa0;
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 2.3em;
+  font-style: italic;
+  color: #a89cba !important;
+}
+
+.menu-transition {
+  background-color: #7a52aa;
+  height: 30px;
+}
+
+/* Format page header */
+.page-header {
+  padding-top: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #551A8B;
+}
+
+/* Format input */
+.label {
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+}
+
+.name-form, .id-form {
+  text-align: center;
+  padding: 20px;
+}
+
+.type-input p {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+#name-input {
+  width: 200px;
+  height: 40px;
+  font-size: 1.5em;
+}
+
+#type, #subtype {
+  width: 100px;
+  height: 30px;
+}
+
+#name-submit {
+  margin: 10px;
+  width: 150px;
+  height: 40px;
+}
+
+/* Format name results */
+#name-results {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.results-count {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #551A8B;
+  font-size: 1.5em;
+  margin: 5px;
+  width: 100%;
+}
+
+.name-card {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #551A8B;
+  border-width: 10px;
+}
+
+.name-card-info {
+  font-size: 1.5em;
+  padding-top: 30px;
+  width: 50%;
+}
+
+.name-image-container {
+  margin: 10px;
+  width: 50%;
+}
+
+/* Format id results */
+#id-results {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.id-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #551A8B;
+  border-width: 50px;
+}
+
+.id-card-info {
+  font-size: 1.7em;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 30px;
+  width: 50%;
+}
+
+.id-image-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 50%;
+}
+
+
+/* Format footer */
+.footer {
+  display: flex;
+  height: 75px;
+  justify-content: space-around;
+}
+
+  /* Tablet and smaller styles */
+  @media only screen and (max-width: 800px) {
+    .page {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .name-card {
+      margin: 0px;
+      width: 100%;
+    }
+    .name-card-info {
+      width: 100%;
+    }
+    #name-results {
+      margin: 0px;
+    }
+
+  }
